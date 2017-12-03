@@ -1,0 +1,12 @@
+﻿生成启动时间为 2016/5/2 10:11:53。
+     1>项目“E:\VisualStudio\CUDA\CUDAColorToGray\CUDAColorToGray\CUDAColorToGray.vcxproj”在节点 2 上(Build 个目标)。
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c E:\研究生-2016年3月\CUDA\GpuCode_陈涛\RgbToGrey\Anim1\src\RgbToGrayAnim1.cu 
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c E:\VisualStudio\CUDA\cudaDome03\cudaDome03\julia_anim_NI.cu 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\BuildCustomizations\CUDA 7.5.targets(402,9): error : The path specified for SourceFile at 'E:\VisualStudio\CUDA\CUDAColorToGray\CUDAColorToGray\ColorToGray.cu' does not exist.
+     1>已完成生成项目“E:\VisualStudio\CUDA\CUDAColorToGray\CUDAColorToGray\CUDAColorToGray.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.95

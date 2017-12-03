@@ -1,0 +1,25 @@
+﻿生成启动时间为 2016/5/15 14:13:11。
+     1>项目“E:\VisualStudio\Qt\lixiaComplex\lixiaComplex\lixiaComplex.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "D:\Documents\Tencent Files\292729249\FileRecv\Complex-1 - 副本\Complex\Complex\CComplex.cpp" "D:\Documents\Tencent Files\292729249\FileRecv\Complex-1 - 副本\Complex\Complex\Main.cpp"
+         Main.cpp
+     1>d:\documents\tencent files\292729249\filerecv\complex-1 - 副本\complex\complex\main.cpp(35): warning C4099: “CComplex”: 类型名称以前使用“class”现在使用的是“struct”
+                 d:\documents\tencent files\292729249\filerecv\complex-1 - 副本\complex\complex\ccomplex.h(20) : 参见“CComplex”的声明
+     1>d:\documents\tencent files\292729249\filerecv\complex-1 - 副本\complex\complex\main.cpp(34): warning C4101: “bFlag3”: 未引用的局部变量
+     1>d:\documents\tencent files\292729249\filerecv\complex-1 - 副本\complex\complex\main.cpp(113): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : 参见“strcpy”的声明
+         CComplex.cpp
+     1>d:\documents\tencent files\292729249\filerecv\complex-1 - 副本\complex\complex\ccomplex.cpp(21): warning C4172: 返回局部变量或临时变量的地址
+     1>d:\documents\tencent files\292729249\filerecv\complex-1 - 副本\complex\complex\ccomplex.cpp(40): warning C4172: 返回局部变量或临时变量的地址
+     1>d:\documents\tencent files\292729249\filerecv\complex-1 - 副本\complex\complex\ccomplex.cpp(59): warning C4172: 返回局部变量或临时变量的地址
+     1>d:\documents\tencent files\292729249\filerecv\complex-1 - 副本\complex\complex\ccomplex.cpp(80): warning C4172: 返回局部变量或临时变量的地址
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VisualStudio\Qt\lixiaComplex\Debug\lixiaComplex.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\VisualStudio\Qt\lixiaComplex\Debug\lixiaComplex.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VisualStudio\Qt\lixiaComplex\Debug\lixiaComplex.lib" /MACHINE:X86 Debug\CComplex.obj
+         Debug\Main.obj
+         lixiaComplex.vcxproj -> E:\VisualStudio\Qt\lixiaComplex\Debug\lixiaComplex.exe
+     1>已完成生成项目“E:\VisualStudio\Qt\lixiaComplex\lixiaComplex\lixiaComplex.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.09

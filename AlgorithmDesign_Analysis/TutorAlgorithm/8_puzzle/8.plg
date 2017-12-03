@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 8 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPD572.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/8.pdb" /debug /machine:I386 /out:"Debug/8.exe" /pdbtype:sept 
+".\Debug\8.obj"
+".\Debug\puzzle_8.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPD572.tmp"
+<h3>Output Window</h3>
+Linking...
+puzzle_8.obj : error LNK2005: "void __cdecl Init(void)" (?Init@@YAXXZ) already defined in 8.obj
+puzzle_8.obj : error LNK2005: "void __cdecl print(struct node *)" (?print@@YAXPAUnode@@@Z) already defined in 8.obj
+puzzle_8.obj : error LNK2005: "void __cdecl searchSpace(struct node *,int &,int &)" (?searchSpace@@YAXPAUnode@@AAH1@Z) already defined in 8.obj
+puzzle_8.obj : error LNK2005: "void __cdecl outPut(struct node *)" (?outPut@@YAXPAUnode@@@Z) already defined in 8.obj
+puzzle_8.obj : error LNK2005: "bool __cdecl compare(struct node *,struct node *)" (?compare@@YA_NPAUnode@@0@Z) already defined in 8.obj
+puzzle_8.obj : error LNK2005: "bool __cdecl exist(struct node *)" (?exist@@YA_NPAUnode@@@Z) already defined in 8.obj
+puzzle_8.obj : error LNK2005: "void __cdecl copy(struct node *,struct node *)" (?copy@@YAXPAUnode@@0@Z) already defined in 8.obj
+puzzle_8.obj : error LNK2005: "struct node * __cdecl exchange0(struct node *,struct node * &,int)" (?exchange0@@YAPAUnode@@PAU1@AAPAU1@H@Z) already defined in 8.obj
+puzzle_8.obj : error LNK2005: "void __cdecl gen(void)" (?gen@@YAXXZ) already defined in 8.obj
+puzzle_8.obj : error LNK2005: _main already defined in 8.obj
+puzzle_8.obj : error LNK2005: "struct node END" (?END@@3Unode@@A) already defined in 8.obj
+puzzle_8.obj : error LNK2005: "struct node START" (?START@@3Unode@@A) already defined in 8.obj
+Debug/8.exe : fatal error LNK1169: one or more multiply defined symbols found
+Ö´ÐÐ link.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+8.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,42 @@
+﻿生成启动时间为 2016/7/30 5:44:02。
+     1>项目“E:\VisualStudio\MFC\firstProram\firstProram\firstProram.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\firstProram.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt MyFont.cpp firstProram.cpp firstProramDlg.cpp
+         MyFont.cpp
+         正在生成代码...
+         正在编译...
+         firstProramDlg.cpp
+     1>e:\visualstudio\mfc\firstproram\firstproram\firstproramdlg.cpp(381): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\visualstudio\mfc\firstproram\firstproram\firstproramdlg.cpp(382): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\visualstudio\mfc\firstproram\firstproram\firstproramdlg.cpp(383): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\visualstudio\mfc\firstproram\firstproram\firstproramdlg.cpp(384): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\visualstudio\mfc\firstproram\firstproram\firstproramdlg.cpp(478): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\visualstudio\mfc\firstproram\firstproram\firstproramdlg.cpp(479): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\visualstudio\mfc\firstproram\firstproram\firstproramdlg.cpp(480): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\visualstudio\mfc\firstproram\firstproram\firstproramdlg.cpp(481): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\visualstudio\mfc\firstproram\firstproram\firstproramdlg.cpp(575): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\visualstudio\mfc\firstproram\firstproram\firstproramdlg.cpp(576): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\visualstudio\mfc\firstproram\firstproram\firstproramdlg.cpp(577): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\visualstudio\mfc\firstproram\firstproram\firstproramdlg.cpp(578): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\visualstudio\mfc\firstproram\firstproram\firstproramdlg.cpp(673): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\visualstudio\mfc\firstproram\firstproram\firstproramdlg.cpp(674): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\visualstudio\mfc\firstproram\firstproram\firstproramdlg.cpp(675): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\visualstudio\mfc\firstproram\firstproram\firstproramdlg.cpp(676): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\visualstudio\mfc\firstproram\firstproram\firstproramdlg.cpp(791): warning C4244: “初始化”: 从“ULONGLONG”转换到“unsigned int”，可能丢失数据
+     1>e:\visualstudio\mfc\firstproram\firstproram\firstproramdlg.cpp(792): warning C4244: “参数”: 从“ULONGLONG”转换到“UINT”，可能丢失数据
+         firstProram.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\firstProram.res" firstProram.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VisualStudio\MFC\firstProram\Debug\firstProram.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\VisualStudio\MFC\firstProram\Debug\firstProram.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VisualStudio\MFC\firstProram\Debug\firstProram.lib" /MACHINE:X86 Debug\firstProram.res
+         Debug\firstProram.obj
+         Debug\firstProramDlg.obj
+         Debug\MyFont.obj
+         Debug\stdafx.obj
+         firstProram.vcxproj -> E:\VisualStudio\MFC\firstProram\Debug\firstProram.exe
+     1>已完成生成项目“E:\VisualStudio\MFC\firstProram\firstProram\firstProram.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.26

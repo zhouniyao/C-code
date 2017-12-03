@@ -1,0 +1,20 @@
+﻿生成启动时间为 2016/7/23 21:33:46。
+     1>项目“E:\VisualStudio\MFC\TestJump\TestJump\TestJump.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\TestJump.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt TestJumpDlg.cpp
+         TestJumpDlg.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\TestJump.res" TestJump.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VisualStudio\MFC\TestJump\Debug\TestJump.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\VisualStudio\MFC\TestJump\Debug\TestJump.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VisualStudio\MFC\TestJump\Debug\TestJump.lib" /MACHINE:X86 Debug\TestJump.res
+         Debug\stdafx.obj
+         Debug\TestJump.obj
+         Debug\TestJumpDlg.obj
+     1>TestJumpDlg.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall CTestJumpDlg::OnEnChangeEdit1(void)" (?OnEnChangeEdit1@CTestJumpDlg@@QAEXXZ)
+     1>TestJumpDlg.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall CTestJumpDlg::OnEnChangeEdit2(void)" (?OnEnChangeEdit2@CTestJumpDlg@@QAEXXZ)
+     1>E:\VisualStudio\MFC\TestJump\Debug\TestJump.exe : fatal error LNK1120: 2 个无法解析的外部命令
+     1>已完成生成项目“E:\VisualStudio\MFC\TestJump\TestJump\TestJump.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.47

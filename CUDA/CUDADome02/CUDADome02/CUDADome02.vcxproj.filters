@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="..\..\CUDA自己的实例\Matrix.cu" />
+    <CudaCompile Include="CUDA_8Q_Pro.cu" />
+    <CudaCompile Include="docProduce.cu" />
+    <CudaCompile Include="CUDA_8Q_Pro2.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NewFilter1">
+      <UniqueIdentifier>{73dfdd6d-6192-4f81-97cb-f1ac25e0d7d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
